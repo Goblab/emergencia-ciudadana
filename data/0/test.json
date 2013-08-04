@@ -1,0 +1,76 @@
+﻿{
+	"aaData": [
+    {
+        "nombre": "HOGAR GERIATRICO",
+        "financiamiento": "Público",
+        "provincia": "Buenos Aires",
+        "localidad": "17 de Agosto",
+        "internacion": "Sí",
+        "camas": 12
+    },
+    {
+        "nombre": "UNIDAD SANITARIA 17 DE AGOSTO",
+        "financiamiento": "Público",
+        "provincia": "Buenos Aires",
+        "localidad": "17 de Agosto",
+        "internacion": "Sí",
+        "camas": 6
+    },
+    {
+        "nombre": "CENTRO MEDICO QUIRURGICO",
+        "financiamiento": "Privado",
+        "provincia": "Buenos Aires",
+        "localidad": "25 de Mayo",
+        "internacion": "Sí",
+        "camas": 4
+    },
+    {
+        "nombre": "GERIATRICO RENACER SA",
+        "financiamiento": "Privado",
+        "provincia": "Buenos Aires",
+        "localidad": "25 de Mayo",
+        "internacion": "Sí",
+        "camas": 0
+    },
+    {
+        "nombre": "HOSPITAL SUBZONAL SATURNINO E. UNZUE",
+        "financiamiento": "Público",
+        "provincia": "Buenos Aires",
+        "localidad": "25 de Mayo",
+        "internacion": "Sí",
+        "camas": 75
+    },
+    {
+        "nombre": "HOGAR GERIATRICO",
+        "financiamiento": "Público",
+        "provincia": "Buenos Aires",
+        "localidad": "30 de Agosto",
+        "internacion": "Sí",
+        "camas": 19
+    },
+    {
+        "nombre": "HOSPITAL MUNICIPAL 30 DE AGOSTO",
+        "financiamiento": "Público",
+        "provincia": "Buenos Aires",
+        "localidad": "30 de Agosto",
+        "internacion": "Sí",
+        "camas": 42
+    },
+    {
+        "nombre": "HOSPITAL MUNICIPAL DR. FRANCISCO EGUIGUREN",
+        "financiamiento": "Público",
+        "provincia": "Buenos Aires",
+        "localidad": "30 de Agosto",
+        "internacion": "Sí",
+        "camas": 20
+    },
+    {
+        "nombre": "CLINICA INDEPENDENCIA",
+        "financiamiento": "Privado",
+        "provincia": "Buenos Aires",
+        "localidad": "9 de Julio",
+        "internacion": "Sí",
+        "camas": 35
+    }
+  ]
+}

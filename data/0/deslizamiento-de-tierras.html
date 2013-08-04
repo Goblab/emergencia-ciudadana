@@ -1,0 +1,37 @@
+<table id="example"></table>
+<script language="javascript" type="text/javascript">
+ 	
+	  var oTable = $('#example').dataTable( {
+        "bProcessing": true,
+        "bAutoWidth": true,
+        "bInfo": false,
+//        "bPaginate": false,
+        "sAjaxSource": "data/salud-data.json",
+//				"sAjaxSource": "data/0/test.json",
+        "bFilter": true,
+        "fnInitComplete": function(oSettings, json) {
+		      	//alert( 'DataTables has finished its initialisation.' );
+		    },
+        "aoColumns": [
+            { "sTitle": "Nombre Efector", "mData": "nombre", type: "text" },
+            { "sTitle": "Provincia", "mData": "provincia" },
+            { "sTitle": "Localidad", "mData": "localidad" },
+            { "sTitle": "Posee internaci&oacute;n", "mData": "internacion", "sClass": "center" },
+            { "sTitle": "Total de camas", "mData": "camas", "sClass": "center" }
+        ],
+         "oLanguage": {
+            "sLengthMenu": "Visualizar _MENU_ registros por p&aacute;gina",
+            "sZeroRecords": "No se encontraron resultados.",
+            "sProcessing": "Procesando datos...",
+            "sInfo": "Visualizando _START_ de _END_ de _TOTAL_ registros",
+            "sInfoEmpty": "Visualizando 0 a 0 de un total de 0 registros",
+            "sInfoFiltered": "(filtrados de un total de _MAX_ registros)",
+            "sSearch": "Filtrar resultados:",
+            "oPaginate": {
+            	"sNext" : "Siguientes",
+            	"sPrevious" : "Anteriores"
+            }
+        }
+    } );
+		
+</script>

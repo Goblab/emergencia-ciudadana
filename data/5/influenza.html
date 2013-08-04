@@ -1,0 +1,95 @@
+<em><p>Usted puede prepararse para protegerse contra la influenza pandémica ahora mismo. Debe conocer la magnitud de lo que puede ocurrir durante un brote pandémico y cuáles son las medidas que puede tomar para ayudar a reducir el impacto de la influencia pandémica sobre usted y su familia. Esta lista le ayudará a reunir la información y los recursos que puede necesitar en caso de una pandemia de gripe.</p></em>
+
+
+
+<h2>Plan para una pandemia:</h2>
+
+
+
+<ul>
+	<li>Guarde un suministro de agua y alimentos suficiente para dos semanas. Durante una pandemia, si no puede ir a la tienda, o si las tiendas no tienen mercadería, será importante tener suministros adicionales a la mano. Esto puede ser útil en otros tipos de emergencias, como apagones y desastres naturales.</li>
+
+	<li>Revise periódicamente los medicamentos recetados que toma regularmente, para estar seguro de que dispone de un suministro continuo en su hogar.</li>
+
+	<li>Tenga a la mano medicamentos de venta libre y otros suministros para la salud, como analgésicos, medicamentos para el malestar estomacal, la tos y el resfrío, fluidos con electrolitos y vitaminas.</li>
+
+	<li>Converse con su familia y sus seres queridos sobre el tratamiento que deberán recibir si se enferman, o qué será necesario para cuidarlos en su casa.</li>
+
+	<li>Trabaje como voluntario con grupos locales para preparar y asistir en la respuesta de emergencia.</li>
+
+	<li>Participe en los trabajos realizados por su comunidad para prepararse para una pandemia de influenza.</li>
+</ul>
+
+
+
+<h2>Limite la diseminación de los gérmenes y prevenga las infecciones:</h2>
+
+
+
+<ul>
+	<li>Evite el contacto cercano.</li>
+
+	<li>Evite el contacto cercano con los enfermos. Si usted mismo se enferma, manténgase alejado de otras personas para protegerlos contra el contagio.</li>
+
+	<li>Quédese en casa cuando esté enfermo.</li>
+
+	<li>De ser posible, quédese en casa y absténgase de ir al trabajo, la escuela o a hacer mandados cuando esté enfermo. De esta manera, ayudará a evitar que otras personas se contagien.</li>
+
+	<li>Cúbrase la nariz y la boca</li>
+
+	<li>Cúbrase la boca y la nariz con un pañuelo de papel al toser o estornudar. Esto puede evitar que quienes lo rodean se contagien.</li>
+
+	<li>Lávese las manos.</li>
+
+	<li>Lavarse las manos con frecuencia ayuda a protegerse contra los gérmenes.</li>
+
+	<li>Evite tocarse los ojos, la nariz o la boca.</li>
+
+	<li>Los gérmenes a menudo se transmiten cuando alguien toca algo que está contaminado con gérmenes y después se toca los ojos, la nariz o la boca.</li>
+
+	<li>Practique otros buenos hábitos de salud.</li>
+
+	<li>Duerma bastante, manténgase físicamente activo, maneje el estrés, beba bastantes fluidos y consuma alimentos nutritivos.</li>
+
+	<li>Cúbrase al toser</li>
+
+	<li>Detenga los gérmenes: Hábitos saludables, vida sana</li>
+</ul>
+<h2>Centros de Salud</h2>
+<table id="example"></table>
+<script language="javascript" type="text/javascript">
+ 	
+	  var oTable = $('#example').dataTable( {
+        "bProcessing": true,
+        "bAutoWidth": true,
+        "bInfo": false,
+//        "bPaginate": false,
+        "sAjaxSource": "data/salud-data.json",
+//				"sAjaxSource": "data/0/test.json",
+        "bFilter": true,
+        "fnInitComplete": function(oSettings, json) {
+		      	//alert( 'DataTables has finished its initialisation.' );
+		    },
+        "aoColumns": [
+            { "sTitle": "Nombre Efector", "mData": "nombre", type: "text" },
+            { "sTitle": "Provincia", "mData": "provincia" },
+            { "sTitle": "Localidad", "mData": "localidad" },
+            { "sTitle": "Posee internaci&oacute;n", "mData": "internacion", "sClass": "center" },
+            { "sTitle": "Total de camas", "mData": "camas", "sClass": "center" }
+        ],
+         "oLanguage": {
+            "sLengthMenu": "Visualizar _MENU_ registros por p&aacute;gina",
+            "sZeroRecords": "No se encontraron resultados.",
+            "sProcessing": "Procesando datos...",
+            "sInfo": "Visualizando _START_ de _END_ de _TOTAL_ registros",
+            "sInfoEmpty": "Visualizando 0 a 0 de un total de 0 registros",
+            "sInfoFiltered": "(filtrados de un total de _MAX_ registros)",
+            "sSearch": "Filtrar resultados:",
+            "oPaginate": {
+            	"sNext" : "Siguientes",
+            	"sPrevious" : "Anteriores"
+            }
+        }
+    } );
+		
+</script>
