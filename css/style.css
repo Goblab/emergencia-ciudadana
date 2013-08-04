@@ -31,3 +31,32 @@ div .bigMap {
 	z-index: 99999;
 	display: none !important;
 }
+
+.mobileMenu2{
+	display:block !important;
+	margin:0 auto 10px;
+    width:240px;
+  }
+
+.mobileMenu2 li{
+  float:left;
+  text-align: center;
+  padding: 0;
+  list-style: none;
+  margin:80px 10px 10px 0;
+}
+
+    .mobileMenu2 li a{
+      display: block;
+      width:70px;
+      height:50px;
+    }
+
+    .mobileMenu2 li a:hover{
+      cursor: pointer;
+    }
+
+.largeButtonCall{
+	display: block;
+	margin:30px auto 0;
+}
