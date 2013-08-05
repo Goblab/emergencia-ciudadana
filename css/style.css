@@ -58,5 +58,27 @@ div .bigMap {
 
 .largeButtonCall{
 	display: block;
-	margin:30px auto 0;
+		margin:60px auto 0;
 }
+
+.smallMenu{
+	display:block !important;
+	width:280px !important;
+	margin:30px auto 0 !important;
+}
+
+
+.offsetSocial{
+	margin:80px auto 0;
+}
+
+.socialesImg{
+	margin-top: 70px;
+	margin-left:30px;
+	
+}
+
+.mt20{
+	margin-top: 30px;
+}
+

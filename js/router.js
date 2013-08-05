@@ -1,6 +1,7 @@
 App.Router.map(function() {
  this.resource('splash');
  this.resource('ayuda');  
+ this.resource('ayudar');  
  this.resource('categorias');  
  this.resource('emergencias', {
     path: '/emergencias/:id'

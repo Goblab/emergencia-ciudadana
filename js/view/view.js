@@ -14,6 +14,12 @@ App.IndexView = Ember.View.extend({
   }
 });
 
+App.IndexController = Ember.ArrayController.extend({
+  init: function () {
+    console.log('pepe');
+  }
+});
+
 
 App.CategoriasView = Ember.View.extend({
   didInsertElement: function () {
